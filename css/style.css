@@ -91,6 +91,12 @@
 	padding: 0px;
 	color: #30343D;
 }
+body{
+	background-image: url(../img/big-logo.png);
+	background-repeat: no-repeat;
+	background-position: 1900px 650px;
+}
+	/* Containers  */
 .container{
 	display: flex;
 	width: 70%;
@@ -98,18 +104,49 @@
 	justify-content: space-between;
 	align-items: center;
 }
+.header__container{
+	margin-top: 10px;
+}
 .header__container2{
+	margin-top: 10px;
 	height: 60px;
 }
-.header__top{}
-.header__low{background-color: #EEF1F5;}
-.phone-number__title{
-	display: inline;
-	font-size: 18px;
-	margin-left: 5px;
-	font-weight: 500;
+.main__container{
+	flex-direction: column;
+	align-items: start;
 }
-.mail__title{
+.module1__container{
+	align-items: start;
+	margin-top: 35px;
+	width: 100%;
+	margin:0px 0%;
+}
+.module2__container{
+	width: 100%;
+	margin:0px 0%;
+}
+.module3__card{
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+	/* Containers */
+
+.header{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.header__color{
+	background-color: #EEF1F5;
+	width: 100%;
+}
+.header__contacts{
+	margin-left: 900px;
+	display: flex;
+}
+.contacts__phone-number{margin-right: 100px;}
+.contacts__mail{margin-right: 100px;}
+.phone-number__title{
 	display: inline;
 	font-size: 18px;
 	margin-left: 5px;
@@ -119,22 +156,21 @@
 	font-weight: normal;
 	color: #F7AB42;
 }
+.mail__title{
+	display: inline;
+	font-size: 18px;
+	margin-left: 5px;
+	font-weight: 500;
+}
 .mail__subtitle{
 	font-weight: lighter;
 }
-.contacts__phone-number{
-	display: inline-block;
-	margin-right: 100px;
+.busket__title{
+	display: inline;
+	font-weight: 500;
+	margin-left: 5px;
 }
-.contacts__mail{
-	display: inline-block;
-	margin-right: 100px;
-}
-.header__contacts{
-	position: relative;
-	left: 475px;
-}
-.header__button{
+.button{
 	width: 200px;
 	height: 52px;
 	background-color: #F7AB42;
@@ -146,11 +182,6 @@
 .header__button:hover{
 	background-color: #d47e08;
 }
-.busket__title{
-	display: inline;
-	font-weight: 500;
-	margin-left: 5px;
-}
 .menu__link{
 	margin-right: 40px;
 	text-decoration: none;
@@ -159,5 +190,133 @@
 }
 .menu__link:hover{
 	color: #1b1c21;
+}
+.module1__img{
+	width: 467px;
+	height: 611px;
+}
+.module1__img--opacity{
+	width: 687px;
+	height: 491px;
+	position: relative;
+	left: -225px;
+	top: 175px;
+}
+.module1__text-module{
+	margin: 125px 0px;
+	position: relative;
+	left: -50px;
+}
+.module1__title{
+	font-family: "PlayfairDisplay";
+	font-size: 33px;
+	font-weight: 400;
+	letter-spacing: 2px;
+}
+.module1__subtitle{
+	margin-top: 15px;
+	letter-spacing: 2px;
+}
+.module1__button{
+	position: relative;
+	top: 400px;
+	left: -525px;
+}
+.main__module-2{
+	margin-top: 50px;
+}
+.section-img{
+	width: 425px;
+}
+.module2__title{
+	font-family: "PlayfairDisplay" ;
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 25px;
+}
+.module2__subtitle{
+	font-family: "CeraPro" ;
+	font-size: 16px;
+	font-weight: lighter;
+	margin-top: 10px;
+}
+.module2__main-title{
+	margin-bottom: 15px;
+	margin-right: 1700px;
+	font-family: "PlayfairDisplay" ;
+	font-size: 24px;
+	font-weight: 400;
+}
+.module2_logo{
+	z-index: -1;
+	position: absolute;
+	left: 1900px;
+	top: 700px;
+}
+/* Модуль3 */
+.module3__color{
+	background-color: #F6F8FA;
+	width: 100%;
+	margin-top: 90px;
+}
+.module3__main-title{
+	margin-top: 70px;
+	font-family: "PlayfairDisplay";
+	font-size: 24px;
+	font-weight: 400;
+}
+.module3__card{
+	width: 345px;
+	height: 450px;
+	background-color:#727A8E1A;
+}
+.card__image{
+	width: 307px;
+	height: 238px;
+	margin-top: 15px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.card__indicators{
+	display: flex;
+	justify-content: space-between;
+}
+.card__new{
+	width: 92px;
+	height: 25px;
+	background-color: #43B2F7;
+	color: #FFFFFF;
+	border: 1px solid #43B2F7;
+	border-radius: 5px;
+	margin: 10px 15px;
+}
+.card__like{
+	width: 23px;
+	height: 20px;
+	margin: 10px 15px;
+}
+.module3__title{
+	margin: 20px;
+	margin-top: 5px;
+	font-size: 18px;
+	font-weight: 500;
+}
+.module3__subtitle{
+	margin: 20px;
+	font-size: 20px;
+	font-weight: 500;
+}
+.module3__text-block{
+	flex-direction: column;
+	align-items: start;
+}
+.module3__text-title{
+	margin-top: 80px;
+	font-family: "PlayfairDisplay";
+	font-size: 24px;
+	font-weight: 400;
+}
+.module3__text{
+	margin-top: 30px;
 }
 
