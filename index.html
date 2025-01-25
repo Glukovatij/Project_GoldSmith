@@ -9,44 +9,205 @@
 </head>
 
 <body>
-	<header class="header">
-		<div class="header__top">
-			<div class="container header__container">
-				<img src="img/logo.png" alt="logo" class="header__logo">
-				<div class="header__contacts">
-					<div class="contacts__phone-number">
-						<img src="img/icon-phone.png" alt="icon" class="phone-number__icon">
-						<p class="phone-number__title">8 800 111-11-11</p>
-						<p class="phone-number__subtitle">Заказать звонок</p>
+	<div class="main-container">
+
+		<header class="header">
+
+			<div class="top-header-wrapping">
+
+				<div class="container top-header-container">
+					<img src="img/logo.png" alt="logo" class="header__logo">
+					<div class="contacts">
+						<div class="contacts__phone-number">
+							<img src="img/icon-phone.png" alt="icon" class="phone-number__icon">
+							<p class="phone-number__title">8 800 111-11-11</p>
+							<p class="phone-number__subtitle">Заказать звонок</p>
+						</div>
+						<div class="contacts__mail">
+							<img src="img/icon-mail.png" alt="icon" class="mail__icon">
+							<p class="mail__title">info@bassco.ru</p>
+							<p class="mail__subtitle">По любым вопросам</p>
+						</div>
 					</div>
-					<div class="contacts__mail">
-						<img src="img/icon-mail.png" alt="icon" class="phone-number__icon">
-						<p class="mail__title">info@bassco.ru</p>
-						<p class="mail__subtitle">По любым вопросам</p>
+					<button class="button header__button">Сотрудничество</button>
+				</div>
+
+			</div>
+
+			<div class="low-header-wrapping">
+
+				<div class="container low-header-container">
+					<nav class="menu header__menu">
+						<a href="#" class="menu__link">Главная</a>
+						<a href="#" class="menu__link">Каталог</a>
+						<a href="#" class="menu__link">О Компании</a>
+						<a href="#" class="menu__link">Контакты</a>
+					</nav>
+					<div class="header__busket">
+						<img src="img/icon-basket.png" alt="icon" class="busket__icon">
+						<p class="busket__title">В корзине 2 товара</p>
 					</div>
 				</div>
-				<button class="header__button">Сотрудничество</button>
+
 			</div>
-		</div>
-		<div class="header__low">
-			<div class="container header__container2">
-				<nav class="header__menu">
-					<a href="#" class="menu__link">Главная</a>
-					<a href="#" class="menu__link">Каталог</a>
-					<a href="#" class="menu__link">О Компании</a>
-					<a href="#" class="menu__link">Контакты</a>
-				</nav>
-				<div class="header__busket">
-					<img src="img/icon-basket.png" alt="icon" class="busket__icon">
-					<p class="busket__title">В корзине 2 товара</p>
+
+		</header>
+
+		<main class="main">
+			<div class="container content__container">
+				<div class="module1-wrapping">
+
+					<div class="module1__container">
+						<img src="img/photo1.png" alt="img" class="module1__img">
+						<img src="img/photo3-opacity.png" alt="img" class="module1__img--opacity">
+						<div class="module1-information-block-flex-wrapping">
+							<div class="module1__text-module">
+								<p class="module1__title">Кольцо из белого<br>Золота с бриллиантами</p>
+								<p class="module1__subtitle">Материал.................................Красное золото 585 пробы</p>
+								<p class="module1__subtitle">Примерный вес........................................................0.86 г</p>
+								<p class="module1__subtitle">Вставка................................Бриллиант (23 шт, 0.069 карат)</p>
+							</div>
+							<button class="button module1__button">Подробнее</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="module2-wrapping">
+					<div class="module2__container">
+						<p class="module2__main-title">Каталог</p>
+						<div class="module2__section">
+							<a class="section__link" href="#"><img src="img/module2-photo1.png" alt="img" class="section-img"></a>
+							<p class="module2__title">Кольца</p>
+							<p class="module2__subtitle">Медиаплан продуцирует нестандартный<br> подход. Наряду с этим, анализ рыночных</p>
+						</div>
+						<div class="module2__section">
+							<a class="section__link" href="#"><img src="img/module2-photo2.png" alt="img" class="section-img"></a>
+							<p class="module2__title">Кресты</p>
+							<p class="module2__subtitle">Медиаплан продуцирует нестандартный<br> подход. Наряду с этим, анализ рыночных</p>
+						</div>
+						<div class="module2__section">
+							<a class="section__link" href="#"><img src="img/module2-photo3.png" alt="img" class="section-img"></a>
+							<p class="module2__title">Браслеты</p>
+							<p class="module2__subtitle">Медиаплан продуцирует нестандартный<br> подход. Наряду с этим, анализ рыночных</p>
+						</div>
+						<div class="module2__section">
+							<a class="section__link" href="#"><img src="img/module2-photo4.png" alt="img" class="section-img"></a>
+							<p class="module2__title">Серьги</p>
+							<p class="module2__subtitle">Медиаплан продуцирует нестандартный<br> подход. Наряду с этим, анализ рыночных</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="module3-wrapping">
+					<div class="module3__container">
+						<p class="module3__main-title">Вам будет интересно</p>
+						<div class="cards-wrapping">
+							<div class="module3__card">
+								<div class="card__indicators">
+									<p class="card__new">Новинка</p>
+									<img src="img/Like.png" alt="image" class="card__like">
+								</div>
+								<img src="img/photo2.png" alt="image" class="card__image">
+								<p class="module3__title">Кольцо из белого золота с бриллиантами</p>
+								<p class="module3__subtitle">5990 Р</p>
+							</div>
+							<div class="module3__card">
+								<div class="card__indicators">
+									<p class="card__new">Новинка</p>
+									<img src="img/Like.png" alt="image" class="card__like">
+								</div>
+								<img src="img/photo3.png" alt="image" class="card__image">
+								<p class="module3__title">Кольцо из белого золота с бриллиантами</p>
+								<p class="module3__subtitle">5990 Р</p>
+							</div>
+							<div class="module3__card">
+								<div class="card__indicators">
+									<p class="card__new">Новинка</p>
+									<img src="img/Like.png" alt="image" class="card__like">
+								</div>
+								<img src="img/photo4.png" alt="image" class="card__image">
+								<p class="module3__title">Кольцо из белого золота с бриллиантами</p>
+								<p class="module3__subtitle">5990 Р</p>
+							</div>
+							<div class="module3__card">
+								<div class="card__indicators">
+									<p class="card__new">Новинка</p>
+									<img src="img/Like.png" alt="image" class="card__like">
+								</div>
+								<img src="img/photo5.png" alt="image" class="card__image">
+								<p class="module3__title">Кольцо из белого золота с бриллиантами</p>
+								<p class="module3__subtitle">5990 Р</p>
+							</div>
+							<div class="module3__card">
+								<div class="card__indicators">
+									<p class="card__new">Новинка</p>
+									<img src="img/Like.png" alt="image" class="card__like">
+								</div>
+								<img src="img/photo2.png" alt="image" class="card__image">
+								<p class="module3__title">Кольцо из белого золота с бриллиантами</p>
+								<p class="module3__subtitle">5990 Р</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="description-block">
+						<p class="description-block__text-title">О компании</p>
+						<p class="description-block__text">Согласно ставшей уже классической работе Филипа Котлера, позиционирование на рынке регулярно отталкивает сегмент рынка. Соц-дем характеристика аудитории вырождена. Жизненный цикл продукции основан на тщательном анализе данных. Ребрендинг, следовательно, экономит рейтинг. Маркетингово-ориентированное издание, не меняя концепции, изложенной выше, осмысленно специфицирует рейтинг.<br><br><br>
+
+							Стратегическое планирование тормозит культурный департамент маркетинга и продаж, учитывая современные тенденции. Ретроконверсия национального наследия интегрирована. Исходя из структуры пирамиды Маслоу, лидерство в продажах решительно изменяет ребрендинг.
+						</p>
+						<div class="description-block__group-links">
+							<div class="description-block__links">
+								<div class="description-block__icon-wrapping">
+									<img src="img/description-icon1.png" alt="icon" class="description-block__icon">
+								</div>
+								<p class="title">Собственное <br> производство</p>
+							</div>
+							<div class="description-block__links">
+								<div class="description-block__icon-wrapping">
+									<img src="img/description-icon2.png" alt="icon" class="description-block__icon">
+								</div>
+								<p class="title">Ускоренная <br> доставка</p>
+							</div>
+							<div class="description-block__links">
+								<div class="description-block__icon-wrapping">
+									<img src="img/description-icon3.png" alt="icon" class="description-block__icon">
+								</div>
+								<p class="title">Собственное <br> производство</p>
+							</div>
+						</div>
+					</div>
+
 				</div>
 			</div>
-		</div>
-	</header>
+		</main>
 
-	<main class="main">
+		<footer class="footer">
+			<div class="footer-wpapping">
+				<div class="container footer__container">
+					<img src="img/logo.png" alt="logo" class="footer__logo">
+					<nav class="menu footer__menu">
+						<a href="#" class="menu__link">Главная</a>
+						<a href="#" class="menu__link">Каталог</a>
+						<a href="#" class="menu__link">О Компании</a>
+						<a href="#" class="menu__link">Контакты</a>
+					</nav>
+					<div class="contacts footer__contacts">
+						<div class="contacts__phone-number">
+							<img src="img/icon-phone.png" alt="icon" class="phone-number__icon">
+							<p class="phone-number__title">8 800 111-11-11</p>
+							<p class="phone-number__subtitle">Заказать звонок</p>
+						</div>
+					</div>
+					<button class="button module1__button">Регистрация</button>
+					<hr class="footer__line">
+					<p class="footer-subtitle">© Bassco 2022</p>
+					<p class="footer-subtitle">Политика конфиденциальности</p>
+				</div>
+			</div>
+		</footer>
 
-	</main>
+	</div>
 </body>
 
 </html>
